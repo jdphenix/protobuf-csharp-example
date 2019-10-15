@@ -6,6 +6,8 @@ using Google.Protobuf;
 using Phenix.ProtobufConcat.Messages;
 using RandomDataGenerator.FieldOptions;
 using RandomDataGenerator.Randomizers;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 /// <summary>
 /// I created to project to demonstrate serializing and deserializing
@@ -22,7 +24,7 @@ namespace Phenix.Protobufconcat
             var randomLastNameGenerator = RandomizerFactory.GetRandomizer(new FieldOptionsLastName());
             var randomDateGenerator = RandomizerFactory.GetRandomizer(new FieldOptionsDateTime());
 
-            const int count = 100000;
+            const int count = 1000000;
             var list = new List<Person>(count);
             for (var i = 0; i < count; i++)
             {
@@ -41,7 +43,6 @@ namespace Phenix.Protobufconcat
 
             WriteStreams(list, desktopPath, id);
             ReadStreams(list, desktopPath, id);
-
         }
 
         private static void ReadStreams(List<Person> list, string path, string id)
@@ -92,6 +93,21 @@ namespace Phenix.Protobufconcat
                 {
                     p.WriteDelimitedTo(cs);
                 }
+            }
+
+            // Just a normal stream.
+            using (var fs = File.Create(Path.Combine(path, "wkp", $"{id}.json")))
+            using (var writer = new StreamWriter(fs))
+            {
+                writer.Write(JsonSerializer.Serialize(list));
+            }
+
+            // (deflate) compressed stream
+            using (var fs = File.Create(Path.Combine(path, "wkp", $"{id}.compressed.json")))
+            using (var cs = new DeflateStream(fs, CompressionLevel.Optimal))
+            using (var writer = new StreamWriter(cs))
+            {
+                writer.Write(JsonSerializer.Serialize(list));
             }
         }
     }
