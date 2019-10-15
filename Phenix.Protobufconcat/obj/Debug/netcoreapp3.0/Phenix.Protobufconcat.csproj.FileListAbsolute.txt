@@ -1,0 +1,16 @@
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\bin\Debug\netcoreapp3.0\Phenix.Protobufconcat.exe
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\obj\Debug\netcoreapp3.0\Phenix.Protobufconcat.csprojAssemblyReference.cache
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\obj\Debug\netcoreapp3.0\Phenix.Protobufconcat.AssemblyInfoInputs.cache
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\obj\Debug\netcoreapp3.0\Phenix.Protobufconcat.AssemblyInfo.cs
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\bin\Debug\netcoreapp3.0\Phenix.Protobufconcat.deps.json
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\bin\Debug\netcoreapp3.0\Phenix.Protobufconcat.runtimeconfig.json
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\bin\Debug\netcoreapp3.0\Phenix.Protobufconcat.runtimeconfig.dev.json
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\bin\Debug\netcoreapp3.0\Phenix.Protobufconcat.dll
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\bin\Debug\netcoreapp3.0\Phenix.Protobufconcat.pdb
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\bin\Debug\netcoreapp3.0\Google.Protobuf.dll
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\obj\Debug\netcoreapp3.0\Phenix.Protobufconcat.csproj.CopyComplete
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\obj\Debug\netcoreapp3.0\Phenix.Protobufconcat.dll
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\obj\Debug\netcoreapp3.0\Phenix.Protobufconcat.pdb
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\bin\Debug\netcoreapp3.0\Fare.dll
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\bin\Debug\netcoreapp3.0\NLipsum.Core.dll
+C:\Users\jdphe\source\repos\Phenix.Protobufconcat\Phenix.Protobufconcat\bin\Debug\netcoreapp3.0\RandomDataGenerator.dll
