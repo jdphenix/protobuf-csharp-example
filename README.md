@@ -3,6 +3,13 @@
 Just my demo project demonstrating differences between serialization sizes of
 JSON versus protobuf, both uncompressed and compressed with deflate. 
 
+My own conclusions really boil down to processing time versus space. Space is negligibly
+different. From the data below, compressing JSON versus compressing protobuf isn't
+*that* different, so I'd make a decision on which to use based on processing time. 
+
+I bet that JSON processing will be flying with the new .NET Core 3.0 JSON API, but 
+obviously I don't really know until I actually test. 
+
 ## Output sizes
 
          1624 25b90d78-3b94-4356-a72c-265d4dea6eaf.100.compressed.dat
